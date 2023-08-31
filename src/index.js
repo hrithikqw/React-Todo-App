@@ -1,12 +1,13 @@
-const details=(
-  <div>
-  <h1 className="header"> This JSX!</h1>
-  <p>It stands for JavaScript XML</p>
-  </div>
+const App=(
+  <nav>
+    <h1>THE CAP HOUSE</h1>
+    <ul>
+    <li>Home</li>
+    <li>Products</li>
+    <li>Collab</li>
+    <li>About Us</li>
+    </ul>
+  </nav>
 )
-console.log(details)  
 
-ReactDOM.render(
-  details,
-  document.getElementById("root")
-)
+ReactDOM.render(App,document.getElementById("root"))   
